@@ -13,7 +13,7 @@ end
 
 def engage
   date = generate_star_date.to_s
-  return state_log(data) 
+  return state_log(date) 
 end
 
 
