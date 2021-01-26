@@ -11,7 +11,7 @@ def state_log(star_date)
   return "Captain's Log, star date #{star_date}."
 end
 
-def engage(crew)
+def engage(crew_greetings)
   date = generate_star_date.to_s
   return state_log(data) + crew.to_s
 end
