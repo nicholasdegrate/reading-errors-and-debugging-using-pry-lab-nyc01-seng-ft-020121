@@ -11,10 +11,10 @@ def state_log(star_date)
   return "Captain's Log, star date #{star_date}."
 end
 
-def engage(crew_greetings='hello')
-  date = generate_star_date.to_s
-  return state_log(date) + crew_greetings
+def engage
+  date = generate_star_date
+  puts state_log(date)
 end
 
 
-engage("hello everyone")
+engage
