@@ -17,4 +17,4 @@ def engage(crew_greetings='hello')
 end
 
 
-engage
+engage("hello everyone")
